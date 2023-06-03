@@ -6,8 +6,8 @@
   --negro: #1f1e1e;
   --grisClaro: #e1e1e1;
   --separacion: 5rem;
-  --fuentePrincipal: "Roboto", sans-serif;
-  --fuenteSecundaria: "Lato", sans-serif;
+  --fuentePrincipal: 'Roboto', sans-serif;
+  --fuenteSecundaria: 'Lato', sans-serif;
 }
 html {
   box-sizing: border-box;
@@ -339,11 +339,11 @@ img {
   }
 }
 
-.formulario input[type="text"] {
+.formulario input[type='text'] {
   width: 100%;
   padding: 1rem;
 }
-.formulario input[type="submit"] {
+.formulario input[type='submit'] {
   width: 100%;
   padding: 2rem;
   background-color: var(--primario);
@@ -361,4 +361,11 @@ img {
   font-size: 2rem;
   color: var(--primario);
   padding: 2rem 0;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
